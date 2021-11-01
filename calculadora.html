@@ -1,0 +1,30 @@
+<script>
+    var operacao = prompt("Entre com a operação (+, - , * , /)");
+    var numero1 = parseInt(prompt("Entre com o primeiro valor"));
+    var numero2 = parseInt(prompt("Entre com o segundo valor"));
+    var resultado;
+    switch (operacao) {
+        case "+":
+            resultado = numero1 + numero2;
+            
+            break;
+        case "-":
+            resultado = numero1 - numero2;
+            
+            break;
+        case "*":
+            resultado = numero1 * numero2;
+            
+            break;
+        case "/":
+            resultado = numero1 / numero2;
+            
+            break;
+        default:
+             resultado = "Entrada de operação Inválida";
+            break;
+    } 
+    alert("O resultado é:" + resultado);
+
+    
+</script>
